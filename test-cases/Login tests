@@ -1,1 +1,27 @@
+# Login Feature – Test Cases
+
+## TC-LOGIN-001
+Objective: Verify login with valid credentials.
+
+Steps:
+1. Navigate to login page
+2. Enter valid email
+3. Enter valid password
+4. Click Login
+
+Expected Result:
+User is redirected to dashboard.
+
+---
+
+## TC-LOGIN-002
+Objective: Validate empty input fields.
+
+Steps:
+1. Leave email blank
+2. Leave password blank
+3. Click Login
+
+Expected Result:
+Error message appears and login is blocked.
 
